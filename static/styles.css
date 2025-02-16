@@ -1,0 +1,355 @@
+body {
+    background: #f7f7f7;
+    /* font-family: 'Georgia', serif; */
+}
+
+.certificate-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    text-align: center;
+    border: 10px solid #2c3e50;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.certificate-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.certificate-content {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.certificate-footer {
+    font-size: 16px;
+    margin-top: 20px;
+    font-style: italic;
+    color: #555;
+}
+
+.uid {
+    font-weight: bold;
+    color: #d35400;
+}
+
+.print-btn {
+    margin-top: 20px;
+    background-color: #3498db;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.print-btn:hover {
+    background-color: #2980b9;
+}
+
+.logo {
+    width: 150px;  /* Adjust width */
+    height: auto;  /* Maintain aspect ratio */
+    margin-bottom: 10px;  /* Add spacing */
+}
+
+/* Hide print button when printing */
+@media print {
+    .print-btn {
+        display: none;
+    }
+}
+
+/* ==== Styles for update.html ==== */
+.update-container {
+    width: 90%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    text-align: center;
+    border: 5px solid #2c3e50;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #34495e;
+    color: white;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #219150;
+}
+
+.completed {
+    color: green;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/static/book.png') center/cover no-repeat;
+    height: 60vh;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+    font-size: 14px;
+}
+/* 🌟 Navbar Styling */
+.navbar {
+    background: linear-gradient(45deg, #0d1b2a, #1b263b, #415a77); /* Gradient Background */
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* 🎨 Navbar Brand Styling */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffcc00 !important; /* Golden Yellow */
+    transition: all 0.3s ease-in-out;
+}
+
+/* 🖱 Hover Effect for Navbar Brand */
+.navbar-brand:hover {
+    color: #ffa500 !important; /* Orange */
+    text-shadow: 0px 0px 8px rgba(255, 165, 0, 0.8);
+}
+
+/* 📌 Navbar Links */
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 8px 15px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+/* 🖱 Hover Effect for All Navbar Links */
+.navbar-nav .nav-link:hover {
+    color: #ffcc00 !important;
+    transform: scale(1.1);
+}
+
+/* 🎉 Special Effect for "Enroll Student" */
+.navbar-nav .nav-item.enroll .nav-link {
+    font-size: 1.2rem;
+    color: #ffcc00 !important;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+/* 🖱 Hover Effect - Enroll Student */
+.navbar-nav .nav-item.enroll:hover .nav-link {
+    transform: scale(1.3);
+    color: #ffcc00 !important;
+    text-shadow: 0px 0px 10px rgba(255, 204, 0, 0.8);
+}
+
+/* ✨ Navbar Button Effects */
+.navbar-toggler {
+    border: 2px solid #ffcc00;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-toggler:hover {
+    background-color: #ffcc00;
+    border-color: white;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px;  /* Adds space between items */
+}
+
+/* Optional: Adjust last item to avoid extra space */
+.navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+
+/* Table Styling */
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background: linear-gradient(to right, #343a40, #212529);
+    color: #ffffff;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+    transition: 0.3s ease-in-out;
+}
+
+/* Print Certificate Button */
+ .btn-primary {
+    font-weight: bold;
+    transition: 0.3s;
+} 
+
+.btn-success {
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+.btn-success:hover {
+    background: linear-gradient(to right, #277f5c, #187145);
+    transform: scale(1.05);
+} 
+
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #0056b3, #003f7f);
+    transform: scale(1.05);
+} 
+
+
+
+/* Enrollment Form Styling */
+
+
+
+/* Input and Select Fields */
+.form-control, .form-select {
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Label Styling */
+.form-label {
+    font-weight: 600;
+    color: #333;
+}
+
+
+
+
+/* Styling for the Update Container */
+.update-container {
+    width: 80%;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Header */
+th {
+    background: #234365;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+}
+
+/* Table Rows */
+td, th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Alternating Row Colors */
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* Completion Status */
+.completed {
+    font-weight: bold;
+    color: green;
+}
+
+/* Mark as Completed Button */
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #218838;
+    transform: scale(1.05);
+}
