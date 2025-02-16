@@ -62,7 +62,7 @@ body {
 
 /* Hide print button when printing */
 @media print {
-    .print-btn {
+    .navbar, .print-btn {
         display: none;
     }
 }
